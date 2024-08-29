@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: darkorchid;
+    height: 30hv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.main{
+    background-color: aqua;
+    height: 40hv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer{
+    background-color: fuchsia;
+    height: 30hv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+
+.text{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
